@@ -1,0 +1,85 @@
+{
+  "id": "9408219d-a39c-4df3-917d-8ff8f802b990",
+  "session_id": "0215813a-3b69-479a-8f20-4c4cc1c45d8f",
+  "title": "cho tôi hỏi vừa bảo lưu vừa chuyển ngành được không",
+  "created_at": "2026-04-09T08:23:14.291770+00:00",
+  "updated_at": "2026-04-09T08:23:43.070838+00:00",
+  "messages": [
+    {
+      "role": "user",
+      "content": "cho tôi hỏi vừa bảo lưu vừa chuyển ngành được không",
+      "timestamp": "2026-04-09T08:23:14.306416+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Theo quy định hiện hành, việc bảo lưu và chuyển ngành cùng một lúc không được phép. Sinh viên chỉ có thể thực hiện một trong hai hành động này trong một thời điểm. Cụ thể, sinh viên chỉ được phép thay đổi chương trình một lần trong năm học và yêu cầu thay đổi sẽ được xử lý một lần mỗi học kỳ, có hiệu lực từ đầu học kỳ tiếp theo. \n\nNếu bạn có thêm câu hỏi hoặc cần hỗ trợ khác, hãy cho tôi biết nhé!",
+      "timestamp": "2026-04-09T08:23:20.361880+00:00",
+      "sources": [
+        {
+          "pdf_name": "VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.pdf",
+          "page": 11,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 21,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 4,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 20,
+          "section": ""
+        },
+        {
+          "pdf_name": "230515_VUNI_Quy-che-dao-tao-Tien-si.pdf",
+          "page": 6,
+          "section": ""
+        }
+      ],
+      "query_type": "academic_regulation"
+    },
+    {
+      "role": "user",
+      "content": "khi nào bị đuổi học",
+      "timestamp": "2026-04-09T08:23:37.059229+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Sinh viên có thể bị đuổi học trong các trường hợp sau:\n\n1. **Không đáp ứng điều kiện trúng tuyển** của ngành học hoặc chương trình đào tạo tương ứng của trường xin chuyển đến.\n2. **Sinh viên năm thứ nhất và năm cuối khóa**.\n3. **Đang trong thời gian bị kỷ luật** từ cảnh cáo trở lên.\n4. **Gian lận trong thi, kiểm tra** hoặc đánh giá kết quả học tập sẽ bị xử lý kỷ luật theo quy định, có thể dẫn đến đình chỉ học tập hoặc buộc thôi học.\n5. **Thi hộ hoặc nhờ người thi hộ** sẽ bị đình chỉ học tập 01 năm đối với lần vi phạm đầu tiên và buộc thôi học đối với lần vi phạm thứ hai.\n\nNếu bạn cần thêm thông tin chi tiết hoặc có câu hỏi khác, hãy cho tôi biết nhé! `[Source: VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf, trang 21-23]`",
+      "timestamp": "2026-04-09T08:23:43.070838+00:00",
+      "sources": [
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 21,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 23,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 16,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 14,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.pdf",
+          "page": 12,
+          "section": ""
+        }
+      ],
+      "query_type": "academic_regulation"
+    }
+  ]
+}
