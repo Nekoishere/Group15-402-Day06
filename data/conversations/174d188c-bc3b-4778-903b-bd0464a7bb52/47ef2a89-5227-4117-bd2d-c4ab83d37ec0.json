@@ -1,0 +1,83 @@
+{
+  "id": "47ef2a89-5227-4117-bd2d-c4ab83d37ec0",
+  "session_id": "174d188c-bc3b-4778-903b-bd0464a7bb52",
+  "title": "Điều kiện để đăng ký học vượt môn là gì?",
+  "created_at": "2026-04-09T07:28:03.115200+00:00",
+  "updated_at": "2026-04-09T07:29:31.628610+00:00",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Điều kiện để đăng ký học vượt môn là gì?",
+      "timestamp": "2026-04-09T07:28:03.142956+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Để đăng ký học vượt môn tại VinUniversity, sinh viên cần đáp ứng các điều kiện sau:\n\n1. **Đề xuất và được sự chấp nhận của Cố vấn học tập**: Sinh viên phải có sự đồng ý từ Cố vấn học tập trước khi đăng ký học vượt môn.\n\n2. **Sự cho phép từ giảng viên**: Giảng viên giảng dạy học phần cũng có thể cho phép sinh viên đăng ký thêm học phần.\n\nNgoài ra, sinh viên cần lưu ý rằng việc đăng ký học vượt môn phải tuân thủ các quy định và thời hạn cụ thể của trường. Nếu có thắc mắc cụ thể hơn, sinh viên nên liên hệ với Văn phòng Đăng ký để được hỗ trợ thêm. \n\n[Source: VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf, trang 13]",
+      "timestamp": "2026-04-09T07:28:13.552946+00:00",
+      "sources": [
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 13,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 19,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 18,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 24,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 20,
+          "section": ""
+        }
+      ],
+      "query_type": "academic_regulation"
+    },
+    {
+      "role": "user",
+      "content": "Tôi tên là Minh",
+      "timestamp": "2026-04-09T07:28:23.241678+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Chào Minh! Rất vui được trò chuyện với bạn. Nếu bạn có bất kỳ câu hỏi nào về quy định học tập, thủ tục hay các vấn đề liên quan đến việc học tại VinUniversity, hãy cho mình biết nhé!",
+      "timestamp": "2026-04-09T07:28:29.145113+00:00",
+      "sources": [],
+      "query_type": "greeting"
+    },
+    {
+      "role": "user",
+      "content": "tôi tên là gì?",
+      "timestamp": "2026-04-09T07:28:59.792156+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Bạn tên là Minh! Nếu bạn cần hỗ trợ về các vấn đề học tập hoặc quy định tại VinUniversity, mình luôn sẵn sàng giúp đỡ nhé!",
+      "timestamp": "2026-04-09T07:29:04.336797+00:00",
+      "sources": [],
+      "query_type": "greeting"
+    },
+    {
+      "role": "user",
+      "content": "what is my name?",
+      "timestamp": "2026-04-09T07:29:28.819686+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Your name is Minh! If you have any questions about academic regulations or procedures at VinUniversity, feel free to ask!",
+      "timestamp": "2026-04-09T07:29:31.628610+00:00",
+      "sources": [],
+      "query_type": "greeting"
+    }
+  ]
+}
