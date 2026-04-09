@@ -53,5 +53,16 @@
     "chunk_count": 25,
     "page_count": 14,
     "error": null
+  },
+  "0d2f18e3-3044-4ba9-886a-6288bce90e8f": {
+    "id": "0d2f18e3-3044-4ba9-886a-6288bce90e8f",
+    "filename": "230619_VUNI_Sexual-Misconduct-and-Response-Guideline_vF.pdf",
+    "stored_name": "0d2f18e3-3044-4ba9-886a-6288bce90e8f.pdf",
+    "size_bytes": 244339,
+    "uploaded_at": "2026-04-09T07:50:43.288276+00:00",
+    "status": "ready",
+    "chunk_count": 29,
+    "page_count": 17,
+    "error": null
   }
 }

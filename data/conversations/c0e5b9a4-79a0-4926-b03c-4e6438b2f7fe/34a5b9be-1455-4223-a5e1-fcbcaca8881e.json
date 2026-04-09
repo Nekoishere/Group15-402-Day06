@@ -1,0 +1,206 @@
+{
+  "id": "34a5b9be-1455-4223-a5e1-fcbcaca8881e",
+  "session_id": "c0e5b9a4-79a0-4926-b03c-4e6438b2f7fe",
+  "title": "để được nhập học tiến sĩ thì tôi cần phải làm gì",
+  "created_at": "2026-04-09T07:41:41.443089+00:00",
+  "updated_at": "2026-04-09T07:52:54.839912+00:00",
+  "messages": [
+    {
+      "role": "user",
+      "content": "để được nhập học tiến sĩ thì tôi cần phải làm gì",
+      "timestamp": "2026-04-09T07:41:41.458014+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Để được nhập học chương trình tiến sĩ tại VinUniversity, bạn cần thực hiện các bước sau:\n\n1. **Nộp hồ sơ**: Bạn phải nộp đầy đủ giấy tờ theo quy định của Quy chế tuyển sinh đại học hệ chính quy hiện hành của Trường. Hồ sơ này thường bao gồm các tài liệu như bằng cấp, bảng điểm, chứng chỉ ngoại ngữ, và các giấy tờ liên quan khác.\n\n2. **Thời hạn nộp hồ sơ**: Bạn cần hoàn thành mọi thủ tục đăng ký nhập học trong thời hạn quy định theo Quy chế tuyển sinh.\n\n3. **Chọn chương trình đào tạo**: Bạn sẽ đăng ký nhập học tại một Viện hoặc một chương trình đào tạo cụ thể. Nếu chưa xác định chuyên ngành, bạn có thể chọn sau trong thời gian quy định.\n\n4. **Đáp ứng tiêu chuẩn**: Bạn cần đảm bảo đáp ứng các tiêu chuẩn về trình độ học vấn và ngoại ngữ theo yêu cầu của chương trình tiến sĩ.\n\nNếu bạn cần thêm thông tin chi tiết về các yêu cầu cụ thể hoặc quy trình, hãy liên hệ với Văn phòng Đăng ký (Registrar's Office) để được hỗ trợ.",
+      "timestamp": "2026-04-09T07:41:49.518821+00:00",
+      "sources": [
+        {
+          "pdf_name": "230515_VUNI_Quy-che-dao-tao-Tien-si.pdf",
+          "page": 3,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.pdf",
+          "page": 10,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 3,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.pdf",
+          "page": 2,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 11,
+          "section": ""
+        }
+      ],
+      "query_type": "academic_regulation"
+    },
+    {
+      "role": "user",
+      "content": "yêu cầu cho chương trình tiến sĩ",
+      "timestamp": "2026-04-09T07:43:10.862908+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Để đủ điều kiện tham gia chương trình tiến sĩ tại VinUniversity, bạn cần đáp ứng các yêu cầu sau:\n\n1. **Trình độ học vấn**:\n   - Bạn phải có bằng thạc sĩ hoặc tốt nghiệp đại học hạng giỏi trở lên trong ngành phù hợp, hoặc tốt nghiệp trình độ tương đương bậc 7 theo Khung trình độ quốc gia Việt Nam trong một số ngành đào tạo chuyên sâu đặc thù phù hợp với ngành đào tạo tiến sĩ.\n\n2. **Kinh nghiệm nghiên cứu**:\n   - Bạn cần có kinh nghiệm nghiên cứu thể hiện qua luận văn thạc sĩ của chương trình đào tạo định hướng nghiên cứu, hoặc bài báo, báo cáo khoa học đã công bố, hoặc có thời gian công tác từ 02 năm (24 tháng) trở lên là giảng viên, nghiên cứu viên của các trường, tổ chức khoa học và công nghệ.\n\n3. **Đề cương nghiên cứu**:\n   - Bạn phải có dự thảo đề cương nghiên cứu và dự kiến kế hoạch học tập, nghiên cứu toàn khóa.\n\n4. **Yêu cầu về ngoại ngữ**:\n   - Đối với công dân Việt Nam, bạn cần có năng lực ngoại ngữ được minh chứng bằng một trong các văn bằng, chứng chỉ quy định, hoặc bằng tốt nghiệp trình độ đại học trở lên do một trường nước ngoài cấp.\n\n5. **Thời gian đào tạo**:\n   - Chương trình đào tạo tiến sĩ được thực hiện theo hình thức chính quy, và nghiên cứu sinh phải dành đủ thời gian học tập, nghiên cứu tại trường theo kế hoạch đã được phê duyệt. Tổng thời gian đào tạo không vượt quá 06 năm (72 tháng) tính từ ngày quyết định công nhận nghiên cứu sinh có hiệu lực đến thời điểm hoàn thành các thủ tục trình luận án.\n\nNếu bạn cần thêm thông tin chi tiết hoặc có câu hỏi cụ thể, hãy liên hệ với Văn phòng Đăng ký (Registrar's Office) để được hỗ trợ thêm. `[Nguồn: 230515_VUNI_Quy-che-dao-tao-Tien-si.pdf, trang 5]`",
+      "timestamp": "2026-04-09T07:43:20.899696+00:00",
+      "sources": [
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 6,
+          "section": ""
+        },
+        {
+          "pdf_name": "230515_VUNI_Quy-che-dao-tao-Tien-si.pdf",
+          "page": 3,
+          "section": ""
+        },
+        {
+          "pdf_name": "230515_VUNI_Quy-che-dao-tao-Tien-si.pdf",
+          "page": 5,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.pdf",
+          "page": 3,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 7,
+          "section": ""
+        }
+      ],
+      "query_type": "academic_regulation"
+    },
+    {
+      "role": "user",
+      "content": "có được hút thuốc trong trường không ?",
+      "timestamp": "2026-04-09T07:44:55.615299+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Tôi không tìm thấy thông tin cụ thể về việc hút thuốc trong trường tại các tài liệu hiện có. Để biết rõ hơn về chính sách này, bạn nên liên hệ với Văn phòng Đăng ký (Registrar's Office) để được hỗ trợ.",
+      "timestamp": "2026-04-09T07:44:58.456783+00:00",
+      "sources": [
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 33,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 16,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 12,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 10,
+          "section": ""
+        }
+      ],
+      "query_type": "academic_regulation"
+    },
+    {
+      "role": "user",
+      "content": "nếu tôi muốn báo cáo bị quấy rối tình dục trong trường thì làm thế nào",
+      "timestamp": "2026-04-09T07:51:06.397390+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Tôi không tìm thấy thông tin cụ thể về quy trình báo cáo quấy rối tình dục trong các tài liệu hiện có. Để biết rõ hơn về cách thức báo cáo và các bước cần thực hiện, bạn nên liên hệ với Văn phòng Đăng ký (Registrar's Office) hoặc bộ phận hỗ trợ sinh viên của trường để được hướng dẫn chi tiết và hỗ trợ kịp thời.",
+      "timestamp": "2026-04-09T07:51:10.097650+00:00",
+      "sources": [
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 22,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.pdf",
+          "page": 12,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.pdf",
+          "page": 13,
+          "section": "3. Học viên vi phạm một trong các quy định sau đây sẽ bị buộc thôi học; bằng thạ"
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 24,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 21,
+          "section": ""
+        }
+      ],
+      "query_type": "academic_regulation"
+    },
+    {
+      "role": "user",
+      "content": "tôi muốn báo cáo ở đâu",
+      "timestamp": "2026-04-09T07:51:48.467184+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Tôi không tìm thấy thông tin cụ thể về nơi báo cáo quấy rối tình dục trong các tài liệu hiện có. Để biết rõ hơn về quy trình và địa điểm báo cáo, bạn nên liên hệ với Văn phòng Đăng ký (Registrar's Office) hoặc bộ phận hỗ trợ sinh viên của trường để được hướng dẫn chi tiết và hỗ trợ kịp thời.",
+      "timestamp": "2026-04-09T07:51:52.127649+00:00",
+      "sources": [
+        {
+          "pdf_name": "230515_VUNI_Quy-che-dao-tao-Tien-si.pdf",
+          "page": 2,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 3,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 17,
+          "section": ""
+        },
+        {
+          "pdf_name": "230515_VUNI_Quy-che-dao-tao-Tien-si.pdf",
+          "page": 11,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 22,
+          "section": ""
+        }
+      ],
+      "query_type": "academic_regulation"
+    },
+    {
+      "role": "user",
+      "content": "tôi bị trầm cảm",
+      "timestamp": "2026-04-09T07:52:54.824138+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "💙 Tôi nhận thấy bạn có vẻ đang trải qua giai đoạn khó khăn. Sức khỏe tinh thần của bạn rất quan trọng.\n\nVui lòng liên hệ ngay với **Bộ phận Tư vấn Tâm lý VinUniversity** hoặc **Phòng Đào Tạo** (tab **Liên Hệ**) để được hỗ trợ kịp thời. Bạn không cần phải đối mặt một mình với điều này.",
+      "timestamp": "2026-04-09T07:52:54.839912+00:00",
+      "sources": [],
+      "query_type": "mental_health"
+    }
+  ]
+}
