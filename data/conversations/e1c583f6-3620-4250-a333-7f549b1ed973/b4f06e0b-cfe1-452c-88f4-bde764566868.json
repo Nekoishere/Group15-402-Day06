@@ -1,0 +1,137 @@
+{
+  "id": "b4f06e0b-cfe1-452c-88f4-bde764566868",
+  "session_id": "e1c583f6-3620-4250-a333-7f549b1ed973",
+  "title": "đụ đỉ mẹ mày",
+  "created_at": "2026-04-09T07:37:36.755533+00:00",
+  "updated_at": "2026-04-09T07:38:54.444854+00:00",
+  "messages": [
+    {
+      "role": "user",
+      "content": "đụ đỉ mẹ mày",
+      "timestamp": "2026-04-09T07:37:36.770367+00:00"
+    },
+    {
+      "role": "user",
+      "content": "địt mẹ mày",
+      "timestamp": "2026-04-09T07:38:10.100668+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Xin chào! Nếu bạn có câu hỏi nào về quy định học tập hoặc các vấn đề liên quan đến VinUniversity, hãy cho tôi biết. Tôi sẵn sàng giúp đỡ bạn!",
+      "timestamp": "2026-04-09T07:38:15.249250+00:00",
+      "sources": [
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 3,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 17,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 22,
+          "section": ""
+        }
+      ],
+      "query_type": "academic_regulation"
+    },
+    {
+      "role": "user",
+      "content": "đồ ngu",
+      "timestamp": "2026-04-09T07:38:30.279588+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Vui lòng sử dụng ngôn ngữ lịch sự. Tôi là trợ lý học thuật VinLex, sẵn sàng hỗ trợ bạn về quy chế nếu bạn trao đổi một cách tôn trọng.",
+      "timestamp": "2026-04-09T07:38:30.288725+00:00",
+      "sources": [],
+      "query_type": "offensive"
+    },
+    {
+      "role": "user",
+      "content": "tôi tên là gì",
+      "timestamp": "2026-04-09T07:38:35.188339+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Xin lỗi, nhưng tôi không thể biết tên của bạn. Nếu bạn có câu hỏi nào khác về quy định học tập hoặc thông tin liên quan đến VinUniversity, hãy cho tôi biết!",
+      "timestamp": "2026-04-09T07:38:38.586062+00:00",
+      "sources": [
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 3,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 5,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 4,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 2,
+          "section": ""
+        }
+      ],
+      "query_type": "academic_regulation"
+    },
+    {
+      "role": "user",
+      "content": "tôi tên tân",
+      "timestamp": "2026-04-09T07:38:43.157145+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Chào Tân! Nếu bạn có câu hỏi nào về quy định học tập hoặc thông tin liên quan đến VinUniversity, hãy cho tôi biết. Tôi rất vui được hỗ trợ bạn!",
+      "timestamp": "2026-04-09T07:38:48.038212+00:00",
+      "sources": [
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 5,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 17,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 2,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 1,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 3,
+          "section": ""
+        }
+      ],
+      "query_type": "academic_regulation"
+    },
+    {
+      "role": "user",
+      "content": "tôi tên gì",
+      "timestamp": "2026-04-09T07:38:52.026024+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Bạn đã cho tôi biết tên của bạn là Tân. Nếu có điều gì bạn muốn hỏi về quy định học tập hay thông tin khác tại VinUniversity, cứ thoải mái chia sẻ nhé!",
+      "timestamp": "2026-04-09T07:38:54.444854+00:00",
+      "sources": [],
+      "query_type": "greeting"
+    }
+  ]
+}
