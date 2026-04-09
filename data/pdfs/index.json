@@ -1,0 +1,35 @@
+{
+  "0df1a949-3e8e-4409-aa94-b58186ed40ae": {
+    "id": "0df1a949-3e8e-4409-aa94-b58186ed40ae",
+    "filename": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+    "stored_name": "0df1a949-3e8e-4409-aa94-b58186ed40ae.pdf",
+    "size_bytes": 990471,
+    "uploaded_at": "2026-04-08T19:21:07.599658+00:00",
+    "status": "ready",
+    "chunk_count": 61,
+    "page_count": 34,
+    "error": null
+  },
+  "cd7fccbb-0b60-48bf-a525-7854315f8b80": {
+    "id": "cd7fccbb-0b60-48bf-a525-7854315f8b80",
+    "filename": "PRC-AQA-002_Student-Grade-Appeal-Procedures_21.01.2026.pdf",
+    "stored_name": "cd7fccbb-0b60-48bf-a525-7854315f8b80.pdf",
+    "size_bytes": 228685,
+    "uploaded_at": "2026-04-08T19:28:29.444676+00:00",
+    "status": "ready",
+    "chunk_count": 6,
+    "page_count": 4,
+    "error": null
+  },
+  "db436ed5-c8ff-452a-b7bb-aaababebc690": {
+    "id": "db436ed5-c8ff-452a-b7bb-aaababebc690",
+    "filename": "VU_HT03.EN_Academic-Regulations-For-Full-Time-Undergraduate-Programs_30102024.pdf",
+    "stored_name": "db436ed5-c8ff-452a-b7bb-aaababebc690.pdf",
+    "size_bytes": 471704,
+    "uploaded_at": "2026-04-08T20:03:10.587505+00:00",
+    "status": "ready",
+    "chunk_count": 62,
+    "page_count": 34,
+    "error": null
+  }
+}

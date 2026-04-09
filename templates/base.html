@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% block title %}VinLex AI — VinUniversity{% endblock %}</title>
+
+  <!-- Tailwind CSS CDN with custom VinUni color tokens -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'vin-red':   '#c92129',
+            'vin-navy':  '#1e356a',
+            'vin-blue':  '#114884',
+            'vin-light': '#e8edf5',
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- marked.js for Markdown rendering in chat -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+
+<body class="bg-gray-50 text-gray-800 min-h-screen flex flex-col">
+
+<!-- ═══════════════════════════════════════════════
+     HEADER / NAVBAR
+═══════════════════════════════════════════════ -->
+<header class="bg-white text-vin-navy shadow-lg z-50 relative">
+  <div class="max-w-screen-2xl mx-auto flex items-center justify-between px-4 py-2">
+
+    <!-- Logo -->
+    <a href="/" class="flex-col gap-3 shrink-0">
+      <img src="{{ url_for('static', filename='images/vinuniversity_logo.png') }}"
+           alt="VinUniversity" class="h-12 w-auto object-contain" />
+    </a>
+
+    <!-- Desktop nav -->
+    <nav class="hidden md:flex items-center gap-1 text-sm font-medium">
+      <a href="/" class="nav-tab {% if active_tab == 'chat' %}nav-tab-active{% endif %}">
+         VinLex AI
+      </a>
+      <a href="/contact" class="nav-tab {% if active_tab == 'contact' %}nav-tab-active{% endif %}">
+         Liên Hệ
+      </a>
+      {% if session.get('user') %}
+        <a href="/management" class="nav-tab {% if active_tab == 'management' %}nav-tab-active{% endif %}">
+          Quản Lý Quy Chế
+        </a>
+        <a href="/logout" class="nav-tab nav-tab-user">
+           {{ session['user'] }} · Đăng Xuất
+        </a>
+      {% else %}
+        <a href="/login" class="nav-tab {% if active_tab == 'login' %}nav-tab-active{% endif %}">
+           Đăng Nhập
+        </a>
+      {% endif %}
+    </nav>
+
+    <!-- Mobile hamburger (opens sidebar or nav) -->
+    <button id="mobile-nav-toggle"
+            class="md:hidden p-2 rounded-lg hover:bg-white/10 transition-colors"
+            aria-label="Open navigation">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Mobile nav dropdown -->
+  <div id="mobile-nav" class="hidden md:hidden border-t border-white/10 bg-vin-navy">
+    <div class="flex flex-col px-4 py-2 gap-1 text-sm font-medium">
+      <a href="/" class="mobile-nav-item {% if active_tab == 'chat' %}mobile-nav-active{% endif %}">
+         VinLex AI
+      </a>
+      <a href="/contact" class="mobile-nav-item {% if active_tab == 'contact' %}mobile-nav-active{% endif %}">
+         Liên Hệ
+      </a>
+      {% if session.get('user') %}
+        <a href="/management" class="mobile-nav-item {% if active_tab == 'management' %}mobile-nav-active{% endif %}">
+         Quản Lý Quy Chế
+        </a>
+        <a href="/logout" class="mobile-nav-item">
+           {{ session['user'] }} · Đăng Xuất
+        </a>
+      {% else %}
+        <a href="/login" class="mobile-nav-item {% if active_tab == 'login' %}mobile-nav-active{% endif %}">
+           Đăng Nhập
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</header>
+
+<!-- ═══════════════════════════════════════════════
+     MAIN CONTENT
+═══════════════════════════════════════════════ -->
+<main class="flex-1 flex flex-col min-h-0">
+  {% block content %}{% endblock %}
+</main>
+
+<!-- ═══════════════════════════════════════════════
+     SCRIPTS
+═══════════════════════════════════════════════ -->
+<script>
+  // Mobile nav toggle
+  document.getElementById('mobile-nav-toggle').addEventListener('click', () => {
+    document.getElementById('mobile-nav').classList.toggle('hidden');
+  });
+</script>
+{% block scripts %}{% endblock %}
+
+</body>
+</html>

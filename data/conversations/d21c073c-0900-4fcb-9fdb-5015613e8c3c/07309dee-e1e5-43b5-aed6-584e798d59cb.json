@@ -1,0 +1,42 @@
+{
+  "id": "07309dee-e1e5-43b5-aed6-584e798d59cb",
+  "session_id": "d21c073c-0900-4fcb-9fdb-5015613e8c3c",
+  "title": "How do I apply for a leave of absence?",
+  "created_at": "2026-04-08T20:08:17.664731+00:00",
+  "updated_at": "2026-04-08T20:08:37.033118+00:00",
+  "messages": [
+    {
+      "role": "user",
+      "content": "How do I apply for a leave of absence?",
+      "timestamp": "2026-04-08T20:08:27.082946+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Để xin nghỉ học tạm thời, bạn cần thực hiện các bước sau:\n\n1. **Điều kiện xin nghỉ**:\n   - Bạn phải học ít nhất một học kỳ trước khi xin nghỉ.\n   - Lý do xin nghỉ phải nằm trong các trường hợp được phép như: \n     - Nghĩa vụ quân sự.\n     - Tham gia các cuộc thi quốc tế.\n     - Cấp cứu y tế hoặc bệnh nghiêm trọng cần điều trị dài hạn (có giấy chứng nhận từ cơ quan y tế).\n\n2. **Thủ tục xin nghỉ**:\n   - Hoàn thành đơn xin nghỉ học (có tài liệu chứng minh lý do xin nghỉ).\n   - Nộp đơn cho cố vấn học tập để xem xét.\n   - Văn phòng Đăng ký sẽ xem xét yêu cầu cùng với Khoa và thông báo cho bạn.\n\n3. **Trở lại học**:\n   - Sau khi nghỉ, bạn cần nộp đơn xin trở lại học cho Văn phòng Đăng ký ít nhất một tháng trước khi học kỳ mới bắt đầu.\n   - Đơn phải kèm theo tài liệu chứng minh sự tiến bộ trong thời gian nghỉ để đảm bảo bạn có thể trở lại chương trình học thành công.\n\n4. **Lưu ý**:\n   - Nếu không trở lại học ngay sau khi nghỉ đã được phê duyệt và không xin gia hạn nghỉ, hồ sơ sinh viên của bạn sẽ bị làm không hoạt động và có thể bị buộc thôi học.\n   - Để trở lại học sau này, bạn phải nộp đơn xin nhập học lại qua Văn phòng Tuyển sinh.\n\nHy vọng thông tin này hữu ích cho bạn! Nếu bạn cần thêm thông tin, hãy liên hệ với Phòng Đào Tạo để được hỗ trợ thêm.  \n[Nguồn: VU_HT03.EN_Academic-Regulations-For-Full-Time-Undergraduate-Programs_30102024.pdf, trang 14-15]",
+      "timestamp": "2026-04-08T20:08:37.033103+00:00",
+      "sources": [
+        {
+          "pdf_name": "VU_HT03.EN_Academic-Regulations-For-Full-Time-Undergraduate-Programs_30102024.pdf",
+          "page": 15,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.EN_Academic-Regulations-For-Full-Time-Undergraduate-Programs_30102024.pdf",
+          "page": 14,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.EN_Academic-Regulations-For-Full-Time-Undergraduate-Programs_30102024.pdf",
+          "page": 23,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.EN_Academic-Regulations-For-Full-Time-Undergraduate-Programs_30102024.pdf",
+          "page": 22,
+          "section": ""
+        }
+      ],
+      "query_type": "academic_regulation"
+    }
+  ]
+}

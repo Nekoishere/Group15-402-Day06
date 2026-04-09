@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+{% block title %}Quản Lý Quy Chế — VinLex AI{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto px-4 py-8">
+
+  <!-- Page header -->
+  <div class="mb-8">
+    <h1 class="text-2xl font-bold text-vin-navy">📂 Quản Lý Quy Chế</h1>
+    <p class="text-gray-500 text-sm mt-1">
+      Tải lên và quản lý các tài liệu PDF quy chế học vụ. Sau khi tải lên, hệ thống sẽ tự động
+      trích xuất nội dung và lập chỉ mục để VinLex AI có thể trả lời chính xác.
+    </p>
+  </div>
+
+  <!-- Upload zone -->
+  <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 mb-8">
+    <h2 class="text-base font-semibold text-gray-700 mb-4">Tải Lên Tài Liệu Mới</h2>
+
+    <div class="drop-zone" id="drop-zone" onclick="document.getElementById('file-input').click()">
+      <input type="file" id="file-input" accept=".pdf" class="hidden" onchange="handleFileSelect(event)" />
+      <div class="text-4xl mb-3">📄</div>
+      <p class="text-gray-600 font-medium">Kéo thả file PDF vào đây hoặc <span class="text-vin-blue font-semibold">nhấn để chọn</span></p>
+      <p class="text-gray-400 text-sm mt-1">Chỉ chấp nhận file .PDF · Tối đa 50MB</p>
+    </div>
+
+    <!-- Upload progress -->
+    <div id="upload-status" class="hidden mt-4 text-sm text-gray-600"></div>
+  </div>
+
+  <!-- PDF list -->
+  <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+    <div class="flex items-center justify-between px-6 py-4 border-b border-gray-100">
+      <h2 class="text-base font-semibold text-gray-700">
+        Tài Liệu Đã Tải Lên
+        <span id="pdf-count" class="ml-2 text-xs font-normal text-gray-400">({{ pdfs|length }} tài liệu)</span>
+      </h2>
+      <button onclick="loadPDFs()" class="text-sm text-vin-blue hover:underline">Làm mới</button>
+    </div>
+
+    <!-- Table -->
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm" id="pdf-table">
+        <thead class="bg-gray-50 text-gray-500 text-xs uppercase tracking-wide">
+          <tr>
+            <th class="px-6 py-3 text-left font-semibold">Tên Tài Liệu</th>
+            <th class="px-6 py-3 text-left font-semibold">Kích Thước</th>
+            <th class="px-6 py-3 text-left font-semibold">Ngày Tải</th>
+            <th class="px-6 py-3 text-left font-semibold">Trạng Thái</th>
+            <th class="px-6 py-3 text-left font-semibold">Thao Tác</th>
+          </tr>
+        </thead>
+        <tbody id="pdf-tbody">
+          {% if pdfs %}
+            {% for pdf in pdfs %}
+            <tr class="border-t border-gray-50 hover:bg-gray-50 transition-colors" id="row-{{ pdf.id }}">
+              <td class="px-6 py-4">
+                <div class="flex items-center gap-2">
+                  <span class="text-lg">📄</span>
+                  <div>
+                    <p class="font-medium text-gray-800">{{ pdf.filename }}</p>
+                    <p class="text-xs text-gray-400">{{ pdf.page_count }} trang · {{ pdf.chunk_count }} đoạn</p>
+                  </div>
+                </div>
+              </td>
+              <td class="px-6 py-4 text-gray-500">{{ (pdf.size_bytes / 1024)|int }} KB</td>
+              <td class="px-6 py-4 text-gray-500">{{ pdf.uploaded_at[:10] }}</td>
+              <td class="px-6 py-4" id="status-{{ pdf.id }}">
+                {% if pdf.status == 'ready' %}
+                  <span class="badge-ready"><span class="pulse-dot"></span> Sẵn sàng</span>
+                {% elif pdf.status == 'indexing' %}
+                  <span class="badge-indexing"><span class="pulse-dot"></span> Đang xử lý...</span>
+                {% else %}
+                  <span class="badge-error" title="{{ pdf.error }}">⚠ Lỗi</span>
+                {% endif %}
+              </td>
+              <td class="px-6 py-4">
+                <button onclick="deletePDF('{{ pdf.id }}', '{{ pdf.filename }}')"
+                        class="text-red-500 hover:text-red-700 text-sm font-medium hover:bg-red-50
+                               px-3 py-1.5 rounded-lg transition-colors">
+                  Xóa
+                </button>
+              </td>
+            </tr>
+            {% endfor %}
+          {% else %}
+            <tr id="empty-table-row">
+              <td colspan="5" class="px-6 py-12 text-center text-gray-400">
+                <div class="text-3xl mb-2">📭</div>
+                <p>Chưa có tài liệu nào được tải lên.</p>
+                <p class="text-sm mt-1">Hãy tải lên file PDF quy chế để VinLex AI bắt đầu hoạt động.</p>
+              </td>
+            </tr>
+          {% endif %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Note -->
+  <div class="mt-6 bg-blue-50 border border-blue-100 rounded-xl px-5 py-4 text-sm text-blue-800">
+    <strong>Lưu ý:</strong> Sau khi tải lên, hệ thống cần vài giây đến vài phút để xử lý tùy theo kích thước file.
+    Chờ trạng thái chuyển sang <strong>"Sẵn sàng"</strong> trước khi sử dụng chatbot.
+  </div>
+
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/management.js') }}"></script>
+{% endblock %}

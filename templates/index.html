@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+{% block title %}VinLex AI — Trợ Lý Học Vụ VinUniversity{% endblock %}
+
+{% block content %}
+<!-- Sidebar overlay (mobile) -->
+<div id="sidebar-overlay" class="sidebar-overlay" onclick="closeSidebar()"></div>
+
+<div class="chat-layout">
+
+  <!-- ══════════════════════════════════════
+       LEFT SIDEBAR
+  ══════════════════════════════════════ -->
+  <aside class="sidebar" id="sidebar">
+
+    <!-- Sidebar header -->
+    <div class="flex items-center justify-between px-3 pt-4 pb-2">
+      <span class="section-title" style="padding:0">Lịch Sử Chat</span>
+      <button onclick="createNewConversation()"
+              title="Tạo cuộc trò chuyện mới"
+              class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-vin-navy text-white
+                     text-xs font-semibold hover:bg-vin-blue transition-colors">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 4v16m8-8H4"/>
+        </svg>
+        Mới
+      </button>
+    </div>
+
+    <!-- Conversation list -->
+    <div class="sidebar-content" id="conv-list">
+      <!-- Populated by chat.js -->
+      <div class="text-center py-8 text-gray-400 text-xs" id="conv-empty-msg">
+        Chưa có cuộc trò chuyện nào.<br/>Hãy bắt đầu!
+      </div>
+    </div>
+
+    <!-- Sidebar footer -->
+    <div class="border-t border-gray-100 px-4 py-3">
+      <div class="text-xs text-gray-400 text-center">
+        VinLex AI &nbsp;·&nbsp; Powered by GPT-4o-mini
+      </div>
+    </div>
+  </aside>
+
+  <!-- ══════════════════════════════════════
+       MAIN CHAT AREA
+  ══════════════════════════════════════ -->
+  <div class="chat-area">
+
+    <!-- Chat topbar (mobile hamburger + title) -->
+    <div class="flex items-center gap-3 px-4 py-3 bg-white border-b border-gray-100">
+      <button id="sidebar-toggle" onclick="toggleSidebar()"
+              class="md:hidden p-1.5 rounded-lg hover:bg-gray-100 transition-colors text-gray-500">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+      <div class="flex items-center gap-2 min-w-0">
+        <span class="w-2 h-2 rounded-full bg-green-400"></span>
+        <span id="current-conv-title" class="text-sm font-semibold text-gray-700 truncate">VinLex AI</span>
+      </div>
+    </div>
+
+    <!-- Alert banners area -->
+    <div id="alert-area"></div>
+
+    <!-- Messages -->
+    <div class="chat-messages" id="chat-messages">
+
+      <!-- Empty state / suggested questions -->
+      <div class="empty-state" id="empty-state">
+        <div class="mb-2">
+          <img src="{{ url_for('static', filename='images/vinuniversity_logo.png') }}"
+               alt="VinUni" class="h-14 w-auto mx-auto opacity-80" />
+        </div>
+        <h2 class="text-xl font-bold text-vin-navy mt-3">Xin chào! Tôi là VinLex AI</h2>
+        <p class="text-gray-500 text-sm mt-2 max-w-sm">
+          Trợ lý tư vấn quy chế học vụ VinUniversity. Hãy hỏi tôi bất kỳ điều gì về học vụ!
+        </p>
+        <div class="suggestions-grid">
+          {% for q in suggested_questions %}
+          <button class="suggestion-card" onclick="handleSuggestedQuestion(this.textContent.trim())">
+            {{ q }}
+          </button>
+          {% endfor %}
+        </div>
+        <p class="text-xs text-gray-400 mt-6">
+          ⚠️ Câu trả lời chỉ mang tính tham khảo. Vui lòng xác nhận với Phòng Đào Tạo cho các quyết định quan trọng.
+        </p>
+      </div>
+
+    </div><!-- /.chat-messages -->
+
+    <!-- Input area -->
+    <div class="chat-input-area">
+      <div class="chat-input-wrapper">
+        <textarea id="chat-input"
+                  rows="1"
+                  placeholder="Nhập câu hỏi về quy chế học vụ... (Enter để gửi)"
+                  onkeydown="handleInputKeydown(event)"
+                  oninput="autoResize(this)"></textarea>
+        <button id="send-btn" onclick="sendMessage()" title="Gửi">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>
+          </svg>
+        </button>
+      </div>
+      <p class="text-center text-xs text-gray-400 mt-2">
+        VinLex AI có thể mắc lỗi. Hãy kiểm tra thông tin quan trọng với Phòng Đào Tạo.
+      </p>
+    </div>
+
+  </div><!-- /.chat-area -->
+
+</div><!-- /.chat-layout -->
+
+<!-- Pass data to JS -->
+<script>
+  const SUGGESTED_QUESTIONS = {{ suggested_questions | tojson }};
+  const IS_LOGGED_IN = {{ 'true' if session.get('user') else 'false' }};
+</script>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+{% endblock %}
