@@ -1,0 +1,59 @@
+{
+  "id": "73b88cfb-9864-45db-8483-53019964c965",
+  "session_id": "110df1be-1fa6-4b1e-8a2d-6181929284b6",
+  "title": "how to defend PhD thesis",
+  "created_at": "2026-04-09T10:19:43.066871+00:00",
+  "updated_at": "2026-04-09T10:22:03.550532+00:00",
+  "messages": [
+    {
+      "role": "user",
+      "content": "how to defend PhD thesis",
+      "timestamp": "2026-04-09T10:19:52.503402+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Defending a PhD thesis at VinUniversity involves several key steps and requirements. Here’s a concise guide based on the university's regulations:\n\n### Steps to Defend Your PhD Thesis\n\n1. **Preparation of the Thesis:**\n   - Ensure your thesis is a comprehensive report of your research findings, demonstrating your ability to conduct independent research and contribute new knowledge to your field [Source: 230515_VUNI_Quy-che-dao-tao-Tien-si.pdf, page 8].\n\n2. **Independent Review Process:**\n   - Your thesis must undergo an independent review process. It requires approval from two independent reviewers. If one reviewer disagrees, a third reviewer will be consulted. If both reviewers do not approve, you will need to revise your thesis accordingly [Source: 230515_VUNI_Quy-che-dao-tao-Tien-si.pdf, page 8].\n\n3. **Approval from Supervisors:**\n   - Obtain approval from your thesis supervisor or co-supervisor before submitting your thesis for evaluation [Source: 230515_VUNI_Quy-che-dao-tao-Tien-si.pdf, page 10].\n\n4. **Organizing the Defense:**\n   - The defense is conducted in front of a committee established by the university. This committee typically includes faculty members and may consist of at least three members, including a chair and a secretary [Source: 230515_VUNI_Quy-che-dao-tao-Tien-si.pdf, page 9].\n\n5. **Presentation:**\n   - Prepare a clear and concise presentation of your research, highlighting your methodology, findings, and contributions to the field. Be ready to answer questions and defend your work against critiques from the committee.\n\n6. **Final Approval:**\n   - After a successful defense, the committee will recommend your thesis for graduation. The university will then process your graduation within a specified timeframe [Source: 230515_VUNI_Quy-che-dao-tao-Tien-si.pdf, page 10].\n\n### Additional Tips\n- **Practice Your Defense:** Rehearse your presentation multiple times and anticipate questions that may arise.\n- **Engage with Your Committee:** Be open to feedback and demonstrate your knowledge and passion for your research topic.\n\nBy following these steps and adequately preparing, you can effectively defend your PhD thesis at VinUniversity. Good luck!",
+      "timestamp": "2026-04-09T10:20:02.704732+00:00",
+      "sources": [
+        {
+          "pdf_name": "VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.pdf",
+          "page": 10,
+          "section": ""
+        },
+        {
+          "pdf_name": "230515_VUNI_Quy-che-dao-tao-Tien-si.pdf",
+          "page": 8,
+          "section": ""
+        },
+        {
+          "pdf_name": "230515_VUNI_Quy-che-dao-tao-Tien-si.pdf",
+          "page": 7,
+          "section": "1. Đề xuất người hướng dẫn nghiên cứu sinh có chuyên môn phù hợp với đề tài luận"
+        },
+        {
+          "pdf_name": "230515_VUNI_Quy-che-dao-tao-Tien-si.pdf",
+          "page": 10,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.pdf",
+          "page": 9,
+          "section": ""
+        }
+      ],
+      "query_type": "academic_regulation"
+    },
+    {
+      "role": "user",
+      "content": "tôi muốn hỏi học phí học kì này",
+      "timestamp": "2026-04-09T10:22:03.534522+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Câu hỏi của bạn liên quan đến **tài chính, học phí hoặc học bổng**. Đây là lĩnh vực nhạy cảm mà tôi không được phép cung cấp thông tin cụ thể để tránh sai sót.\n\nVui lòng liên hệ trực tiếp với **Phòng Đào Tạo** để được tư vấn chính xác (xem tab **Liên Hệ** trên thanh menu).",
+      "timestamp": "2026-04-09T10:22:03.550532+00:00",
+      "sources": [],
+      "query_type": "financial"
+    }
+  ]
+}

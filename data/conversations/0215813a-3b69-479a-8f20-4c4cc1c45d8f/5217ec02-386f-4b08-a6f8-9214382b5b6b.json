@@ -1,0 +1,47 @@
+{
+  "id": "5217ec02-386f-4b08-a6f8-9214382b5b6b",
+  "session_id": "0215813a-3b69-479a-8f20-4c4cc1c45d8f",
+  "title": "tôi tên gì",
+  "created_at": "2026-04-09T09:14:55.329448+00:00",
+  "updated_at": "2026-04-09T09:15:09.820696+00:00",
+  "messages": [
+    {
+      "role": "user",
+      "content": "tôi tên gì",
+      "timestamp": "2026-04-09T09:15:03.412305+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Xin lỗi, nhưng tôi không biết tên của bạn. Bạn có thể cho tôi biết tên của bạn để tôi có thể hỗ trợ tốt hơn không?",
+      "timestamp": "2026-04-09T09:15:09.820696+00:00",
+      "sources": [
+        {
+          "pdf_name": "VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.pdf",
+          "page": 14,
+          "section": ""
+        },
+        {
+          "pdf_name": "230515_VUNI_Quy-che-dao-tao-Tien-si.pdf",
+          "page": 15,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.pdf",
+          "page": 2,
+          "section": ""
+        },
+        {
+          "pdf_name": "230515_VUNI_Quy-che-dao-tao-Tien-si.pdf",
+          "page": 14,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 3,
+          "section": ""
+        }
+      ],
+      "query_type": "academic_regulation"
+    }
+  ]
+}
