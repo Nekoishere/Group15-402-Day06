@@ -48,3 +48,10 @@ MENTAL_HEALTH_KEYWORDS = [
     "muốn chết", "tuyệt vọng", "depression", "suicide", "self-harm",
     "không còn muốn cố gắng", "bỏ cuộc", "overwhelmed",
 ]
+
+OFFENSIVE_KEYWORDS = [
+    "ngu", "dốt", "đần", "ngu ngốc", "vô học", "clgt", "đm", "vcl",
+    "chửi", "fuck", "stupid", "idiot", "bitch", "shit",
+]
+
+

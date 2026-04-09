@@ -1,7 +1,7 @@
 import os
 from openai import OpenAI
 
-from config import CHAT_MODEL, FINANCIAL_KEYWORDS, MENTAL_HEALTH_KEYWORDS, CHROMA_DIR
+from config import CHAT_MODEL, FINANCIAL_KEYWORDS, MENTAL_HEALTH_KEYWORDS, OFFENSIVE_KEYWORDS, CHROMA_DIR
 from backend.vector_store import VectorStore
 from backend.rag import RAGPipeline
 
@@ -34,6 +34,11 @@ _COUNSELING_RESPONSE = {
         "Please reach out to **VinUniversity's Student Counseling** or the "
         "**Registrar's Office** (Contact tab) for support. You don't have to face this alone."
     ),
+}
+
+_OFFENSIVE_RESPONSE = {
+    "vi": "Vui lòng sử dụng ngôn ngữ lịch sự. Tôi là trợ lý học thuật VinLex, sẵn sàng hỗ trợ bạn về quy chế nếu bạn trao đổi một cách tôn trọng.",
+    "en": "Please use polite language. I am VinLex, an academic assistant ready to help you with university regulations if we communicate respectfully.",
 }
 
 # System prompt for the general conversational / greeting path
@@ -78,6 +83,16 @@ class VinLexChatbot:
         """
         query_lower = query.lower()
         language = self._detect_language(query)
+
+        # 0. Offensive language check (keyword-based, fast)
+        if self._check_offensive(query_lower):
+            return {
+                "answer": _OFFENSIVE_RESPONSE[language],
+                "query_type": "offensive",
+                "sources": [],
+                "redirect_to_contact": False,
+                "suggest_counseling": False,
+            }
 
         # 1. Mental health check (keyword-based, fast)
         if self._check_mental_health(query_lower):
@@ -253,6 +268,9 @@ class VinLexChatbot:
         return "vi" if non_ascii / len(text) > 0.08 else "en"
 
     # ── Keyword checks (fast, no LLM) ───────────────────────────
+
+    def _check_offensive(self, query_lower: str) -> bool:
+        return any(kw in query_lower for kw in OFFENSIVE_KEYWORDS)
 
     def _check_financial(self, query_lower: str) -> bool:
         return any(kw in query_lower for kw in FINANCIAL_KEYWORDS)
