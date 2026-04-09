@@ -31,5 +31,27 @@
     "chunk_count": 62,
     "page_count": 34,
     "error": null
+  },
+  "5dd5329b-4cc4-47d1-be35-40b215ab7a38": {
+    "id": "5dd5329b-4cc4-47d1-be35-40b215ab7a38",
+    "filename": "230515_VUNI_Quy-che-dao-tao-Tien-si.pdf",
+    "stored_name": "5dd5329b-4cc4-47d1-be35-40b215ab7a38.pdf",
+    "size_bytes": 379566,
+    "uploaded_at": "2026-04-09T07:40:04.846028+00:00",
+    "status": "ready",
+    "chunk_count": 29,
+    "page_count": 15,
+    "error": null
+  },
+  "8ac0591d-ff88-4157-8ddb-954c8b2c1ed4": {
+    "id": "8ac0591d-ff88-4157-8ddb-954c8b2c1ed4",
+    "filename": "VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.pdf",
+    "stored_name": "8ac0591d-ff88-4157-8ddb-954c8b2c1ed4.pdf",
+    "size_bytes": 789562,
+    "uploaded_at": "2026-04-09T07:40:20.273682+00:00",
+    "status": "ready",
+    "chunk_count": 25,
+    "page_count": 14,
+    "error": null
   }
 }
