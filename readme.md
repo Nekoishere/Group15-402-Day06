@@ -1,6 +1,6 @@
 # 1. Cài đặt venv và cài requirements trong requirements.txt
 ```
-cd c:/GET_A_JOB/VIN_AI/Lab/Day06
+cd into folder
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
