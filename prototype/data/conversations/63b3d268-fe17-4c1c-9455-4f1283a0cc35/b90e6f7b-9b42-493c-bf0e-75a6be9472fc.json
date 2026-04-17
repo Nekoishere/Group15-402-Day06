@@ -1,0 +1,47 @@
+{
+  "id": "b90e6f7b-9b42-493c-bf0e-75a6be9472fc",
+  "session_id": "63b3d268-fe17-4c1c-9455-4f1283a0cc35",
+  "title": "Sinh viên cần bao nhiêu tín chỉ để tốt nghiệp?",
+  "created_at": "2026-04-10T05:26:35.157290+00:00",
+  "updated_at": "2026-04-10T05:26:46.921594+00:00",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Sinh viên cần bao nhiêu tín chỉ để tốt nghiệp?",
+      "timestamp": "2026-04-10T05:26:35.174598+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Để tốt nghiệp tại VinUniversity, sinh viên cần hoàn thành một số lượng tín chỉ nhất định tùy thuộc vào chương trình đào tạo. Cụ thể:\n\n- **Đối với các chương trình đào tạo thông thường**: \n  - Sinh viên năm thứ tư cần tích lũy từ 90 tín chỉ trở lên.\n  \n- **Đối với Viện Khoa học Sức khỏe**: \n  - Sinh viên năm thứ hai cần tích lũy từ 35 tín chỉ đến 70 tín chỉ.\n  \nNgoài ra, sinh viên cũng cần đảm bảo các yêu cầu khác như không có nợ tín chỉ và đạt điểm trung bình tích lũy theo quy định để đủ điều kiện tốt nghiệp. \n\nNếu bạn cần thêm thông tin chi tiết, hãy tham khảo tài liệu quy định hoặc liên hệ với Văn phòng Đăng ký. \n\nNguồn: [VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf, trang 16]",
+      "timestamp": "2026-04-10T05:26:46.921594+00:00",
+      "sources": [
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 16,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 5,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 32,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 18,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 17,
+          "section": ""
+        }
+      ],
+      "query_type": "academic_regulation"
+    }
+  ]
+}

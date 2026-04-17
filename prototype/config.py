@@ -1,10 +1,12 @@
+import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).parent
-DATA_DIR = BASE_DIR / "data"
+DATA_DIR = Path(os.getenv("DATA_DIR", str(BASE_DIR / "data")))
 PDFS_DIR = DATA_DIR / "pdfs"
 CHROMA_DIR = DATA_DIR / "chroma_db"
 CONVS_DIR = DATA_DIR / "conversations"
+
 
 # Ensure data directories exist
 for _dir in [PDFS_DIR, CHROMA_DIR, CONVS_DIR]:
