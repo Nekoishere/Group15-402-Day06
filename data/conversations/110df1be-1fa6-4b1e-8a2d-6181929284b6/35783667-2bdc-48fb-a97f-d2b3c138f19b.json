@@ -1,0 +1,87 @@
+{
+  "id": "35783667-2bdc-48fb-a97f-d2b3c138f19b",
+  "session_id": "110df1be-1fa6-4b1e-8a2d-6181929284b6",
+  "title": "điều kiện để tốt nghiệp",
+  "created_at": "2026-04-09T10:18:21.917041+00:00",
+  "updated_at": "2026-04-09T10:19:23.588298+00:00",
+  "messages": [
+    {
+      "role": "user",
+      "content": "điều kiện để tốt nghiệp",
+      "timestamp": "2026-04-09T10:18:21.932681+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Để tốt nghiệp tại VinUniversity, sinh viên cần đáp ứng các điều kiện sau:\n\n1. **Đăng ký tốt nghiệp** trong học kỳ tốt nghiệp dự kiến theo quy trình của Nhà trường.\n2. **Tích lũy đủ số học phần** và khối lượng chương trình đào tạo trong thời gian quy định.\n3. **Hoàn thành các yêu cầu** về Giáo dục đại cương/Nền tảng và năng lực tiếng Anh.\n4. **Hoàn thành các yêu cầu chuyên ngành** do các Viện đào tạo quy định.\n5. **Hoàn thành các học phần bắt buộc** mà hiện tại đang có điểm \"I - Chưa hoàn thành\" trong bảng điểm.\n6. **Điểm trung bình tích lũy** của toàn khóa học đạt tối thiểu từ 2,00/4,00 trở lên.\n7. **Không bị truy cứu trách nhiệm hình sự** cho đến thời điểm xét tốt nghiệp.\n8. **Hoàn thành nghĩa vụ khác** theo quy định của Nhà trường.\n\nNếu sinh viên không hoàn thành tất cả các yêu cầu vào cuối học kỳ tốt nghiệp dự kiến, họ sẽ phải đăng ký lại để tốt nghiệp. \n\nHội đồng xét tốt nghiệp sẽ căn cứ vào các điều kiện này để ra quyết định công nhận tốt nghiệp cho sinh viên. [Nguồn: VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf, trang 31]",
+      "timestamp": "2026-04-09T10:18:29.829500+00:00",
+      "sources": [
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 32,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.pdf",
+          "page": 10,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 27,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 31,
+          "section": ""
+        }
+      ],
+      "query_type": "academic_regulation"
+    },
+    {
+      "role": "user",
+      "content": "tôi bị trầm cảm",
+      "timestamp": "2026-04-09T10:18:56.434954+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "💙 Tôi nhận thấy bạn có vẻ đang trải qua giai đoạn khó khăn. Sức khỏe tinh thần của bạn rất quan trọng.\n\nVui lòng liên hệ ngay với **Bộ phận Tư vấn Tâm lý VinUniversity** hoặc **Phòng Đào Tạo** (tab **Liên Hệ**) để được hỗ trợ kịp thời. Bạn không cần phải đối mặt một mình với điều này.",
+      "timestamp": "2026-04-09T10:18:56.449017+00:00",
+      "sources": [],
+      "query_type": "mental_health"
+    },
+    {
+      "role": "user",
+      "content": "tôi muốn chơi game",
+      "timestamp": "2026-04-09T10:19:19.759574+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Chơi game là một hoạt động giải trí thú vị và có thể giúp bạn thư giãn sau những giờ học căng thẳng. Tuy nhiên, bạn cũng nên cân nhắc thời gian chơi game để đảm bảo không ảnh hưởng đến việc học tập và sức khỏe của mình.\n\nNếu bạn có bất kỳ câu hỏi nào về quy định của VinUniversity liên quan đến việc sử dụng thời gian hoặc các hoạt động ngoại khóa, hãy cho tôi biết!",
+      "timestamp": "2026-04-09T10:19:23.588298+00:00",
+      "sources": [
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 3,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.pdf",
+          "page": 14,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.pdf",
+          "page": 2,
+          "section": ""
+        },
+        {
+          "pdf_name": "VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi_30102024.pdf",
+          "page": 15,
+          "section": ""
+        }
+      ],
+      "query_type": "academic_regulation"
+    }
+  ]
+}
